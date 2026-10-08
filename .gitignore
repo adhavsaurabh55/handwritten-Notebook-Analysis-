@@ -1,0 +1,51 @@
+# Node / Dependencies
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+dist-ssr/
+*.local
+
+# Python / Environment
+venv/
+backend/venv/
+env/
+ENV/
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Databases & Cache
+*.db
+*.sqlite
+*.sqlite3
+CACHEDIR.TAG
+
+# Downloaded AI Model Caches & Large Binaries
+backend/models/trocr/models--microsoft--trocr-base-handwritten/
+backend/models/flan_t5_small/*.bin
+backend/models/flan_t5_small/*.safetensors
+backend/data/preprocessed_images/
+
+# Logs & Temporary Files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor & OS
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+*.sw?
